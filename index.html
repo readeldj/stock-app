@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Stock app</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="userInput">
+      <input type="text" id="symbol">
+      <input type="number" id="quantity">
+      <button id="submit">Submit</button>
+    </div>
+
+    <div class="results">
+      <h1>My Portfolio</h1>
+      <table id="table">
+        <thead>
+          <tr>
+            <td>Company</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Day Change</td>
+            <td></td>
+          </tr>
+        </thead>
+      </table>
+    </div>
+
+   <script src="//cdn.jsdelivr.net/lodash/3.0.0/lodash.min.js"></script>
+   <script src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+   <script src="main.js"></script>
+  </body>
+</html>
